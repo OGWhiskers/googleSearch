@@ -1,0 +1,36 @@
+* {
+  margin: 0; }
+
+.header {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  margin: 5px 5px; }
+
+.logo {
+  width: 15vw;
+  height: 100%; }
+
+.logo-con {
+  display: flex;
+  width: 50%; }
+
+.links {
+  width: 50%; }
+  .links ul {
+    display: flex;
+    height: 100%;
+    justify-content: flex-end;
+    gap: 30px; }
+    .links ul li {
+      align-self: center;
+      list-style: none; }
+      .links ul li a {
+        text-decoration: none;
+        color: black; }
+      .links ul li a:visited {
+        color: black; }
+      .links ul li a:hover {
+        text-decoration: solid underline 1px black; }
+
+/*# sourceMappingURL=styleAd.css.map */

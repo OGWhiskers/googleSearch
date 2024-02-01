@@ -1,0 +1,61 @@
+$under: black;
+$fontColor: black;
+
+$headFontS: 5vw;
+$headFontL: 3vw;
+
+$back: rgb(36, 36, 36);
+$back2: rgb(65, 65, 65);
+
+$borderRadius: 16px;
+$border: solid 1px gray;
+
+* {
+  margin: 0;
+}
+
+.header {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+
+  margin: 5px 5px;
+}
+
+.logo {
+  width: 15vw;
+  height: 100%;
+}
+
+.logo-con {
+  display: flex;
+  //   background-color: red;
+  width: 50%;
+}
+
+.links {
+  width: 50%;
+
+  ul {
+    display: flex;
+    height: 100%;
+    justify-content: flex-end;
+
+    gap: 30px;
+
+    li {
+      align-self: center;
+      list-style: none;
+      a {
+        text-decoration: none;
+        color: $fontColor;
+      }
+      a:visited {
+        color: $fontColor;
+      }
+      a:hover {
+        text-decoration: solid underline 1px $fontColor;
+      }
+    }
+  }
+}
